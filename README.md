@@ -10,7 +10,7 @@ A node is `fm-node` on a Linux server: your app connects to it and runs chats an
 **One command, as the user the node should run as (not through `sudo`):**
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/xacce/frostmourne-releases/main/install.sh | sh
+curl -fsSL https://github.com/xacce/frostmourne-releases/releases/latest/download/install.sh | sh
 ```
 
 It does everything, and it is safe to run again (that is also how to update by hand):
